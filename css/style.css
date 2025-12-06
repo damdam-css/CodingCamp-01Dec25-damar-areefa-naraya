@@ -1,0 +1,221 @@
+body {
+    font-family: bellgothic std, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfe;
+}
+
+/*buat bar navigasi*/
+nav {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 15px;
+    border: 1px solid rgb(26, 24, 24);
+    background-color: rgb(34, 34, 35); 
+    box-sizing: border-box; 
+    z-index: 1000;
+}
+
+.logo img.as 
+{
+    align-items: center;
+    height: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+ul li a {
+    padding : 14px;
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    color: #f4f4f7;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #f4f4f7;
+    color: #1f1e1e;
+    border-radius: 10px;
+}
+
+
+header {
+    padding-top: 70px;
+    padding-bottom: 20px; 
+    height: 600px;
+
+}
+header h1 {
+        margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #1f1e1e;
+    font-size: 4em;
+    font-weight: bold;
+    border: #1f1e1e solid 2px;
+    background-color: #ffffff;
+}
+
+header p {
+
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;;
+}
+
+img {
+    height: 450px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+/*buat profile*/
+footer h1 {
+    text-align: center;
+    color: #f4f4f7;
+    font-size: 2.5em;
+    border: #1f1e1e solid 2px;
+    padding: 10px;
+    background-color: #1f1e1e;
+}
+footer h2 {
+    margin-top: 0%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #1f1e1e;
+    font-size: 4em;
+    font-weight: bold;
+    border: #1f1e1e solid 2px;
+    border-width: fit-content;
+    background-color: #ffffff;
+
+
+}
+footer div {
+    padding: 20px;
+    display: block; 
+    text-align: center; 
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    height: 0px;
+    border-top: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+/*message us*/
+
+section {
+    height: 600px;
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f4f4f7;
+    font-size: 2.5em;
+    border: #1f1e1e solid 2px;
+    padding: 10px;
+    background-color: #1f1e1e;
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.output-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #1f1e1e;
+    background-color:#ffffff;
+    box-shadow: 2px 2px 5px (#1f1e1e);
+}
+
+.form-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #1f1e1e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #1f1e1e;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #f4f4f7;
+    background-color: #1f1e1e;
+}
